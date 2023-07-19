@@ -78,10 +78,14 @@ Bu proje kapsamında, Scrum modeli kullanılarak sprintler oluşturulacak, işle
   <li>
       <h3 color="Red">Programdan Görseller:</h3>
       <ul>        
-        <li><img src="/img/1.png"> Mesajlaşma </li>
-       <li><img src="/img/2.png"> Konum Arama </li>
-       <li><img src="/img/3.png"> Konuma Göre Arkadaş Ekleme </li>
-       <li><img src="/img/4.png"> Profil Sayfası Ve Bilgileri Güncelleme </li>
+        <li><img src="/img/1.png"> Giriş Yap -  İşlem Tamamlanan Kadar Process Bar Aktif Olur.</li>
+       <li><img src="/img/2.png"> Kayıt Ol - Form kurallara uygun değilde buton disabled olur. -  İşlem Tamamlanan Kadar Process Bar Aktif Olur.</li>
+       <li><img src="/img/3.png"> Kart Güncelleme - Form kurallara uygun değilde buton disabled olur. -  İşlem Tamamlanan Kadar Process Bar Aktif Olur.</li>
+       <li><img src="/img/4.png"> Güncelleme Başarılı </li>
+       <li><img src="/img/5.png"> Kart Ekleme - Form kurallara uygun değilde buton disabled olur. -  İşlem Tamamlanan Kadar Process Bar Aktif Olur.</li>
+       <li><img src="/img/6.png"> Kart Ekeleme Başarılı </li>
+       <li><img src="/img/7.png"> Kart Silme - İşlem Tamamlanan Kadar Process Bar Aktif Olur.</li>
+       <li><img src="/img/8.png"> Kart Silme Başarılı </li>
       </ul>
   </li>	
 </ol>
