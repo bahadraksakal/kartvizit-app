@@ -55,6 +55,12 @@ Bu proje kapsamında, Scrum modeli kullanılarak sprintler oluşturulacak, işle
         <li>ng serve komutunu çalıştırın</li>  
         <li>FrontEnd default olarak localhost:4200 adresinde çalışacaktır.</li>
       	<li>BackEnd'e erişebilmek için config.backend.js doyası altındaki BASE_URL adresinin Back-End'in çalıştığı adres ile aynı olduğundan emin olun. Default olarak localhost:3000 adresinde çalışacaktır.</li>
+	<li>Not: isterseniz projeyi docker ile build edip docker üzerinden çalıştırabilirsiniz bunun için:<br>
+	`kartvizit-frontend-app` klasörü altında `docker build -t my-angular-app-kartvizit . ` komutunu çalıştırın.<br>
+	`kartvizit-frontend-app` klasörü altında `docker run -p 4200:4200 my-angular-app-kartvizit` komutunu çalıştırın.<br>
+	`kartvizit-backend-app` klasörü altında `docker build -t my-backend-app-kartvizit . ` komutunu çalıştırın.<br>
+	`kartvizit-backend-app` klasörü altında `docker run -p 3000:3000 my-backend-app-kartvizit` komutunu çalıştırın.<br>
+	</li>
       </ul>
   </li>
   <li>
