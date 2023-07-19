@@ -36,8 +36,9 @@ Bu proje kapsamında, Scrum modeli kullanılarak sprintler oluşturulacak, işle
         <li>Node.js(JavaScript)-Express</li>
 	<li>MongoDB</li>
         <li>Docker</li>
-        <li>HTML</li>
+        <li>Bootstrap</li>
         <li>SCSS</li>
+	<li>HTML</li>
         <li>JavaScript</li>
       </ul>
   </li>
