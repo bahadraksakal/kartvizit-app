@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Ahmet Yılmaz",
+    "title": "Mühendis",
+    "phone": "0555 123 45 67",
+    "email": "ahmet.yilmaz@example.com",
+    "address": "İstanbul, Türkiye"
+  },
+  {
+    "name": "Ayşe Demir",
+    "title": "Yönetici Asistanı",
+    "phone": "0532 987 65 43",
+    "email": "ayse.demir@example.com",
+    "address": "Ankara, Türkiye"
+  },
+  {
+    "name": "Mehmet Aksoy",
+    "title": "Satış Temsilcisi",
+    "phone": "0543 456 78 90",
+    "email": "mehmet.aksoy@example.com",
+    "address": "İzmir, Türkiye"
+  },
+  {
+    "name": "Zeynep Kaya",
+    "title": "Hukuk Danışmanı",
+    "phone": "0551 234 56 78",
+    "email": "zeynep.kaya@example.com",
+    "address": "Antalya, Türkiye"
+  },
+  {
+    "name": "Mustafa Şahin",
+    "title": "Finans Müdürü",
+    "phone": "0533 678 90 12",
+    "email": "mustafa.sahin@example.com",
+    "address": "Bursa, Türkiye"
+  },
+  {
+    "name": "Fatma Korkmaz",
+    "title": "İnsan Kaynakları Uzmanı",
+    "phone": "0542 345 67 89",
+    "email": "fatma.korkmaz@example.com",
+    "address": "Adana, Türkiye"
+  },
+  {
+    "name": "Ali Öztürk",
+    "title": "Pazarlama Müdürü",
+    "phone": "0555 876 54 32",
+    "email": "ali.ozturk@example.com",
+    "address": "Eskişehir, Türkiye"
+  },
+  {
+    "name": "Selin Ateş",
+    "title": "Grafik Tasarımcısı",
+    "phone": "0531 987 65 43",
+    "email": "selin.ates@example.com",
+    "address": "Konya, Türkiye"
+  },
+  {
+    "name": "Ahmet Demirci",
+    "title": "Proje Yöneticisi",
+    "phone": "0541 234 56 78",
+    "email": "ahmet.demirci@example.com",
+    "address": "Trabzon, Türkiye"
+  },
+  {
+    "name": "Deniz Arslan",
+    "title": "Müşteri Hizmetleri Sorumlusu",
+    "phone": "0532 567 89 01",
+    "email": "deniz.arslan@example.com",
+    "address": "Gaziantep, Türkiye"
+  }
+]

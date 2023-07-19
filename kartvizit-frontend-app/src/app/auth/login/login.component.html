@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Giriş Yap</h1>
+                    <h6>Email ve şifreniz ile giriş yapabilirsiniz.</h6>
+                </div>
+                <div *ngIf="showSpinner">
+                    <mat-progress-bar mode="query"></mat-progress-bar>
+                    <br>
+                  </div>
+                <form [formGroup]="signupForm">
+                    <div class="mb-3">
+                      <label for="inputEmail" class="form-label">Email:</label>
+                      <input formControlName="userMail" type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="mb-3">
+                      <label for="inputPassword" class="form-label">Şifre:</label>
+                      <input formControlName="userPassword" type="password" class="form-control" id="inputPassword">
+                    </div>
+                    <button type="submit" class="btn btn-primary" [disabled]="signupForm.invalid || showSpinner" (click)="loginUser()">Giriş Yap</button>
+                </form>
+                <a routerLink="/auth/signup">Kayıt olmak için tıkla</a>
+            </div>
+        </div>
+    </div>
+</div>

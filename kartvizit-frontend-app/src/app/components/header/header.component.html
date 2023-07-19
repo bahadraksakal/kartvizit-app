@@ -1,0 +1,23 @@
+<header class="header">
+    <mat-toolbar color="primary">
+        <span>Kartvizit App</span>
+        <span class="example-spacer"></span>
+        <ul class="header-menu">
+            <li>
+                <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Anasayfa</a>
+            </li>
+            <li *ngIf="isLoggedIn()">
+                <a routerLink="/cards" routerLinkActive="active">Kartvizitler</a>
+            </li>
+            <li *ngIf="isLoggedIn()">
+                <a class="logout-link" (click)="logout()">Çıkış Yap</a>
+            </li>
+            <li *ngIf="!isLoggedIn()">
+                <a routerLink="/auth/login" routerLinkActive="active">Giriş Yap</a>
+            </li>
+            <li *ngIf="!isLoggedIn()">
+                <a routerLink="/auth/signup" routerLinkActive="active">Kayıt Ol</a>
+            </li>
+        </ul>
+    </mat-toolbar>
+</header>

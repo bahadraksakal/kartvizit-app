@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: node-app-pod
+spec:
+  containers:
+    - name: node-app
+      image: bahadraksakal/kartvizit-backend-worker1-test:1.0
+      ports:
+        - containerPort: 3000

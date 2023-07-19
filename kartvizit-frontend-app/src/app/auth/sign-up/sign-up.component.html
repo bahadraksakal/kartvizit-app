@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Kayıt Ol</h1>
+                    <h6>Bilgilerinizi girin ve kayıt olun.</h6>
+                </div>
+                <div *ngIf="showSpinner">
+                  <mat-progress-bar mode="query"></mat-progress-bar>
+                  <br>
+                </div>
+                <form [formGroup]="signupForm">
+                    <div class="mb-3">
+                        <label for="inputName" class="form-label">Ad Ve Soyad:</label>
+                        <input formControlName="userName" type="email" class="form-control" id="inputName">
+                      </div>
+                    <div class="mb-3">
+                      <label for="inputEmail" class="form-label">Email:</label>
+                      <input formControlName="userMail" type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="mb-3">
+                      <label for="inputPassword" class="form-label">Şifre:</label>
+                      <input formControlName="userPassword" type="password" class="form-control" id="inputPassword">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword2" class="form-label">Tekrar Şifre:</label>
+                        <input type="password" class="form-control" id="inputPassword2">
+                      </div>
+                    <button type="submit" class="btn btn-primary" (click)="createUser()" [disabled]="signupForm.invalid || showSpinner">Kayıt Ol</button>
+                  </form>
+                  <a routerLink="/auth/login" >Zaten bir hesabın var mı ? Giriş Yap !</a>
+            </div>
+        </div>
+    </div>
+</div>
