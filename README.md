@@ -76,60 +76,60 @@
         
         Bu projenin amacı, kurumsal yazılım geliştirme süreçlerini ve temiz kod yazma prensiplerini öğrenmektir. Bu amaç doğrultusunda, sisteme kayıt olup giriş yaptıktan sonra kartvizitlerinizi güvenli bir şekilde kayıt edebileceğiniz ve hızlı bir şekilde ulaşabileceğiniz bir uygulama geliştirdim. Projenin hedefleri şunlardır:
         
-        *   \* Kurumsal yazılım geliştirme süreçlerinin uygulanması.
-        *   \* Agile metodolojisi ve Scrum ile proje gelişitirilmesi.
-        *   \* Temiz kod yazma prensiplerinin uygulanması.
-        *   \* Uygulamanın Dockerize edilmesi.
-        *   \* Hatasız ve hızlı çalışan bir uygulama ortaya konması.
-    *  ### Benimsenen Yazılım Geliştirme Metodolojisi:
+    *   \* Kurumsal yazılım geliştirme süreçlerinin uygulanması.
+    *   \* Agile metodolojisi ve Scrum ile proje gelişitirilmesi.
+    *   \* Temiz kod yazma prensiplerinin uygulanması.
+    *   \* Uygulamanın Dockerize edilmesi.
+    *   \* Hatasız ve hızlı çalışan bir uygulama ortaya konması.
+*  ### Benimsenen Yazılım Geliştirme Metodolojisi:
         
         Projede Agile metodolojilerinden Scrum modeli kullanılacaktır. Scrum, proje geliştirme sürecini daha esnek ve iteratif bir şekilde yönetmeye olanak sağlayan bir modeldir. Scrum modeli projeyi küçük parçalara yani sprintlere böler ve her sprintte önceden belirlenmiş işler üzerinde çalışma yapılmasına olanak sağlar. Scrum modelinin temel özellikleri şunlardır: Ürün sahibi: Projede ürün sahibi olarak belirlenen kişi kullanıcı gereksinimlerini belirler ve sprintlerin öncelik sırasını belirleyerek geliştirme sürecine yön verir. Scrum Master: Projenin Scrum uygulamalarını yöneten ve takımın sorunsuz bir şekilde çalışmasını sağlayan kişidir. Engelleri kaldırmak takımı desteklemek ve süreci optimize etmek gibi görevleri vardır. Geliştirme Takımı: Projenin gerçekleştirilmesinden sorumlu olan ekip üyeleridir. Back-End ve Front-End geliştiriciler veri tabanı uzmanı gibi roller bu takımda yer alabilir. Scrum modelinde, projenin geliştirilmesi iteratif bir şekilde gerçekleştirilir. Her sprint, genellikle 1 ila 2 hafta arasında değişen bir zaman dilimini kapsar. Her sprint öncesinde sprint planlama toplantıları yapılır ve sprint boyunca takımın hedefleri gerçekleştirmesi beklenir. Sprint sonunda gerçekleştirilen işler gözden geçirilir ve kullanıcı/ekip üyelerinin geri bildirimleri dikkate alınır. Bu proje kapsamında, Scrum modeli kullanılarak sprintler oluşturulacak, işler belirlenecek ve süreç düzenli olarak gözden geçirilecektir Bu sayede proje ilerlemesi takip edilecek, esneklik ve müşteri odaklılık sağlanacak ve geliştirme süreci optimize edilmesi kolaylaşacaktır.
         
-    *  ### Projede Kullanılan Teknoloji Ve Diller:
+*  ### Projede Kullanılan Teknoloji Ve Diller:
         
-        *   Angular - Angular CLI
-        *   Node.js(JavaScript)-Express
-        *   MongoDB
-        *   Docker
-        *   Bootstrap
-        *   SCSS
-        *   HTML
-        *   JavaScript
-    *  ### \-LOCAL- Proje Ayağa Kaldırma Adımları:
+    *   Angular - Angular CLI
+    *   Node.js(JavaScript)-Express
+    *   MongoDB
+    *   Docker
+    *   Bootstrap
+    *   SCSS
+    *   HTML
+    *   JavaScript
+*  ### \-LOCAL- Proje Ayağa Kaldırma Adımları:
         
-        *   **npm** paket yöneticisine ihtiyacımız var. Node.js web sitesinden npm paket yöneticisini kurun.
-        *   \`kartvizit-backend-app\` klasörü altında komut terminali açın başlatın.
-        *   npm install komutunu çalıştırın.
-        *   npm run serve komutunu çalıştırın.
-        *   BackEnd default olarak localhost:3000 adresinde çalışacaktır.
-        *   BackEnd - Veritabanı (MongoDb) bağlantısını yapmak için app.config.js dosyası içindeki connectionString'e kendi veritabanı bağlantı adresenizini girebilirsiniz.
-        *   \`cmd\` yi yönetici olarak çalıştırın. \`npm install -g typescript\` komutunu girin.
-        *   \`cmd\` yi yönetici olarak çalıştırın. \`npm install -g @angular/cli\` komutunu girin.
-        *   \`kartvizit-frontend-app\` klasörü altında komut terminali açın başlatın.
-        *   npm install komutunu çalıştırın.
-        *   ng serve komutunu çalıştırın
-        *   FrontEnd default olarak localhost:4200 adresinde çalışacaktır.
-        *   BackEnd'e erişebilmek için config.backend.js doyası altındaki BASE\_URL adresinin Back-End'in çalıştığı adres ile aynı olduğundan emin olun. Default olarak localhost:3000 adresinde çalışacaktır.
-        *   Not: isterseniz projeyi docker ile build edip docker üzerinden çalıştırabilirsiniz bunun için:  
-            \`kartvizit-frontend-app\` klasörü altında \`docker build -t my-angular-app-kartvizit . \` komutunu çalıştırın.  
-            \`kartvizit-frontend-app\` klasörü altında \`docker run -p 4200:4200 my-angular-app-kartvizit\` komutunu çalıştırın.  
-            \`kartvizit-backend-app\` klasörü altında \`docker build -t my-backend-app-kartvizit . \` komutunu çalıştırın.  
-            \`kartvizit-backend-app\` klasörü altında \`docker run -p 3000:3000 my-backend-app-kartvizit\` komutunu çalıştırın.  
+    *   **npm** paket yöneticisine ihtiyacımız var. Node.js web sitesinden npm paket yöneticisini kurun.
+    *   \`kartvizit-backend-app\` klasörü altında komut terminali açın başlatın.
+    *   npm install komutunu çalıştırın.
+    *   npm run serve komutunu çalıştırın.
+    *   BackEnd default olarak localhost:3000 adresinde çalışacaktır.
+    *   BackEnd - Veritabanı (MongoDb) bağlantısını yapmak için app.config.js dosyası içindeki connectionString'e kendi veritabanı bağlantı adresenizini girebilirsiniz.
+    *   \`cmd\` yi yönetici olarak çalıştırın. \`npm install -g typescript\` komutunu girin.
+    *   \`cmd\` yi yönetici olarak çalıştırın. \`npm install -g @angular/cli\` komutunu girin.
+    *   \`kartvizit-frontend-app\` klasörü altında komut terminali açın başlatın.
+    *   npm install komutunu çalıştırın.
+    *   ng serve komutunu çalıştırın
+    *   FrontEnd default olarak localhost:4200 adresinde çalışacaktır.
+    *   BackEnd'e erişebilmek için config.backend.js doyası altındaki BASE\_URL adresinin Back-End'in çalıştığı adres ile aynı olduğundan emin olun. Default olarak localhost:3000 adresinde çalışacaktır.
+    *   Not: isterseniz projeyi docker ile build edip docker üzerinden çalıştırabilirsiniz bunun için:  
+        \`kartvizit-frontend-app\` klasörü altında \`docker build -t my-angular-app-kartvizit . \` komutunu çalıştırın.  
+        \`kartvizit-frontend-app\` klasörü altında \`docker run -p 4200:4200 my-angular-app-kartvizit\` komutunu çalıştırın.  
+        \`kartvizit-backend-app\` klasörü altında \`docker build -t my-backend-app-kartvizit . \` komutunu çalıştırın.  
+        \`kartvizit-backend-app\` klasörü altında \`docker run -p 3000:3000 my-backend-app-kartvizit\` komutunu çalıştırın.  
             
-    *  ### Uygulamanın Özellikleri:
+*  ### Uygulamanın Özellikleri:
         
-        *   Kullanıcı Kayıt
-        *   Kullanıcı Giriş
-        *   Kartvizit Ekleme
-        *   Kartvizit Düzenleme
-        *   Kartvizit Silme
-          
-    *  ### Programdan Görseller:
-        *   ![](/img/1.png) Giriş Yap - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
-        *   ![](/img/2.png) Kayıt Ol - Form kurallara uygun değilde buton disabled olur. - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
-        *   ![](/img/3.png) Kart Güncelleme - Form kurallara uygun değilde buton disabled olur. - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
-        *   ![](/img/4.png) Güncelleme Başarılı
-        *   ![](/img/5.png) Kart Ekleme - Form kurallara uygun değilde buton disabled olur. - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
-        *   ![](/img/6.png) Kart Ekeleme Başarılı
-        *   ![](/img/7.png) Kart Silme - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
-        *   ![](/img/8.png) Kart Silme Başarılı
+    *   Kullanıcı Kayıt
+    *   Kullanıcı Giriş
+    *   Kartvizit Ekleme
+    *   Kartvizit Düzenleme
+    *   Kartvizit Silme
+      
+*  ### Programdan Görseller:
+    *   ![](/img/1.png) Giriş Yap - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
+    *   ![](/img/2.png) Kayıt Ol - Form kurallara uygun değilde buton disabled olur. - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
+    *   ![](/img/3.png) Kart Güncelleme - Form kurallara uygun değilde buton disabled olur. - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
+    *   ![](/img/4.png) Güncelleme Başarılı
+    *   ![](/img/5.png) Kart Ekleme - Form kurallara uygun değilde buton disabled olur. - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
+    *   ![](/img/6.png) Kart Ekeleme Başarılı
+    *   ![](/img/7.png) Kart Silme - İşlem Tamamlanan Kadar Process Bar Aktif Olur.
+    *   ![](/img/8.png) Kart Silme Başarılı
