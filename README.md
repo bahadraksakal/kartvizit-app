@@ -169,7 +169,9 @@ Bu proje kapsamında, Scrum modeli kullanılarak sprintler oluşturulacak, işle
       </ul>
   </li>
   <li>
-      <h3 color="Red">Programdan Görseller:</h3>
+	  
+### Programdan Görseller:
+	  
       <ul>        
         <li><img src="/img/1.png"> Giriş Yap -  İşlem Tamamlanan Kadar Process Bar Aktif Olur.</li>
        <li><img src="/img/2.png"> Kayıt Ol - Form kurallara uygun değilde buton disabled olur. -  İşlem Tamamlanan Kadar Process Bar Aktif Olur.</li>
