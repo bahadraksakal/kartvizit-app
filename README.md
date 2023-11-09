@@ -72,18 +72,19 @@
     
     ## Yaz Stajı Kartvizit Uygulaması ve Docker
     
-    *  ### Proje Amacı ve Hedefleri:
+*  ### Proje Amacı ve Hedefleri:
         
-        Bu projenin amacı, kurumsal yazılım geliştirme süreçlerini ve temiz kod yazma prensiplerini öğrenmektir. Bu amaç doğrultusunda, sisteme kayıt olup giriş yaptıktan sonra kartvizitlerinizi güvenli bir şekilde kayıt edebileceğiniz ve hızlı bir şekilde ulaşabileceğiniz bir uygulama geliştirdim. Projenin hedefleri şunlardır:
+    Bu projenin amacı, kurumsal yazılım geliştirme süreçlerini ve temiz kod yazma prensiplerini öğrenmektir. Bu amaç doğrultusunda, sisteme kayıt olup giriş yaptıktan sonra kartvizitlerinizi güvenli bir şekilde kayıt edebileceğiniz ve hızlı bir şekilde ulaşabileceğiniz bir uygulama geliştirdim. Projenin hedefleri şunlardır:
         
     *   \* Kurumsal yazılım geliştirme süreçlerinin uygulanması.
     *   \* Agile metodolojisi ve Scrum ile proje gelişitirilmesi.
     *   \* Temiz kod yazma prensiplerinin uygulanması.
     *   \* Uygulamanın Dockerize edilmesi.
     *   \* Hatasız ve hızlı çalışan bir uygulama ortaya konması.
+
 *  ### Benimsenen Yazılım Geliştirme Metodolojisi:
         
-        Projede Agile metodolojilerinden Scrum modeli kullanılacaktır. Scrum, proje geliştirme sürecini daha esnek ve iteratif bir şekilde yönetmeye olanak sağlayan bir modeldir. Scrum modeli projeyi küçük parçalara yani sprintlere böler ve her sprintte önceden belirlenmiş işler üzerinde çalışma yapılmasına olanak sağlar. Scrum modelinin temel özellikleri şunlardır: Ürün sahibi: Projede ürün sahibi olarak belirlenen kişi kullanıcı gereksinimlerini belirler ve sprintlerin öncelik sırasını belirleyerek geliştirme sürecine yön verir. Scrum Master: Projenin Scrum uygulamalarını yöneten ve takımın sorunsuz bir şekilde çalışmasını sağlayan kişidir. Engelleri kaldırmak takımı desteklemek ve süreci optimize etmek gibi görevleri vardır. Geliştirme Takımı: Projenin gerçekleştirilmesinden sorumlu olan ekip üyeleridir. Back-End ve Front-End geliştiriciler veri tabanı uzmanı gibi roller bu takımda yer alabilir. Scrum modelinde, projenin geliştirilmesi iteratif bir şekilde gerçekleştirilir. Her sprint, genellikle 1 ila 2 hafta arasında değişen bir zaman dilimini kapsar. Her sprint öncesinde sprint planlama toplantıları yapılır ve sprint boyunca takımın hedefleri gerçekleştirmesi beklenir. Sprint sonunda gerçekleştirilen işler gözden geçirilir ve kullanıcı/ekip üyelerinin geri bildirimleri dikkate alınır. Bu proje kapsamında, Scrum modeli kullanılarak sprintler oluşturulacak, işler belirlenecek ve süreç düzenli olarak gözden geçirilecektir Bu sayede proje ilerlemesi takip edilecek, esneklik ve müşteri odaklılık sağlanacak ve geliştirme süreci optimize edilmesi kolaylaşacaktır.
+    Projede Agile metodolojilerinden Scrum modeli kullanılacaktır. Scrum, proje geliştirme sürecini daha esnek ve iteratif bir şekilde yönetmeye olanak sağlayan bir modeldir. Scrum modeli projeyi küçük parçalara yani sprintlere böler ve her sprintte önceden belirlenmiş işler üzerinde çalışma yapılmasına olanak sağlar. Scrum modelinin temel özellikleri şunlardır: Ürün sahibi: Projede ürün sahibi olarak belirlenen kişi kullanıcı gereksinimlerini belirler ve sprintlerin öncelik sırasını belirleyerek geliştirme sürecine yön verir. Scrum Master: Projenin Scrum uygulamalarını yöneten ve takımın sorunsuz bir şekilde çalışmasını sağlayan kişidir. Engelleri kaldırmak takımı desteklemek ve süreci optimize etmek gibi görevleri vardır. Geliştirme Takımı: Projenin gerçekleştirilmesinden sorumlu olan ekip üyeleridir. Back-End ve Front-End geliştiriciler veri tabanı uzmanı gibi roller bu takımda yer alabilir. Scrum modelinde, projenin geliştirilmesi iteratif bir şekilde gerçekleştirilir. Her sprint, genellikle 1 ila 2 hafta arasında değişen bir zaman dilimini kapsar. Her sprint öncesinde sprint planlama toplantıları yapılır ve sprint boyunca takımın hedefleri gerçekleştirmesi beklenir. Sprint sonunda gerçekleştirilen işler gözden geçirilir ve kullanıcı/ekip üyelerinin geri bildirimleri dikkate alınır. Bu proje kapsamında, Scrum modeli kullanılarak sprintler oluşturulacak, işler belirlenecek ve süreç düzenli olarak gözden geçirilecektir Bu sayede proje ilerlemesi takip edilecek, esneklik ve müşteri odaklılık sağlanacak ve geliştirme süreci optimize edilmesi kolaylaşacaktır.
         
 *  ### Projede Kullanılan Teknoloji Ve Diller:
         
