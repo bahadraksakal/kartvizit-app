@@ -60,14 +60,14 @@
     *   Deleting a Business Card
 
 *   ### Images from the Program:
-         * ![](/img/1.png) Login - Process Bar Will Be Active Until The Process Is Completed.
-         * ![](/img/2.png) Register - If the form does not comply with the rules, the button will be disabled. - Process Bar Will Be Active Until The Process Is Completed.
-         * ![](/img/3.png) Card Update - If the form does not comply with the rules, the button will be disabled. - Process Bar Will Be Active Until The Process Is Completed.
-         * ![](/img/4.png) Update Successful
-         * ![](/img/5.png) Adding a Card - If the form does not comply with the rules, the button will be disabled. - Process Bar Will Be Active Until The Process Is Completed.
-         * ![](/img/6.png) Adding Card Successful
-         * ![](/img/7.png) Card Deletion - Process Bar Will Be Active Until The Process Is Completed.
-         * ![](/img/8.png) Card Deletion Successful
+     * ![](/img/1.png) Login - Process Bar Will Be Active Until The Process Is Completed.
+     * ![](/img/2.png) Register - If the form does not comply with the rules, the button will be disabled. - Process Bar Will Be Active Until The Process Is Completed.
+     * ![](/img/3.png) Card Update - If the form does not comply with the rules, the button will be disabled. - Process Bar Will Be Active Until The Process Is Completed.
+     * ![](/img/4.png) Update Successful
+     * ![](/img/5.png) Adding a Card - If the form does not comply with the rules, the button will be disabled. - Process Bar Will Be Active Until The Process Is Completed.
+     * ![](/img/6.png) Adding Card Successful
+     * ![](/img/7.png) Card Deletion - Process Bar Will Be Active Until The Process Is Completed.
+     * ![](/img/8.png) Card Deletion Successful
     
     ### Yaz Stajı Kartvizit Uygulaması ve Docker
     
