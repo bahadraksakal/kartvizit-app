@@ -5,6 +5,8 @@
 - [TR : Açıklama :book: :leftwards_arrow_with_hook:](#tr)
 ****
 
+#### [EN]
+
 ## Summer Internship Business Card Application and Docker
 
 *   ### Project Purpose and Goals:
@@ -70,7 +72,9 @@
     * ![](/img/7.png) Card Deletion - Process Bar Will Be Active Until The Process Is Completed.
     * ![](/img/8.png) Card Deletion Successful
     
-    ## Yaz Stajı Kartvizit Uygulaması ve Docker
+#### [TR]
+
+## Yaz Stajı Kartvizit Uygulaması ve Docker
     
 *  ### Proje Amacı ve Hedefleri:
         
